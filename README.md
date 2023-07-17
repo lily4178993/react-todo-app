@@ -1,0 +1,1 @@
+"react-todo-app" is a tool that helps to organize a day.
