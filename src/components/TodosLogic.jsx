@@ -32,8 +32,11 @@ const TodosLogic = () => {
     }));
   };
   const delTodo = (id) => {
-    console.log('deleted', id);
+    setTodos([
+      ...todos.filter((todo) => todo.id !== id),
+    ]);
   };
+
   return (
     <div>
       <InputTodo />
