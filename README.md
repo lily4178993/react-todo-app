@@ -1,70 +1,220 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# <b>Table of Contents 📗
 
-### `npm start`
+- [About the Project 📖](#about-project)
+  - [Built With](#built-with) 🛠
+    - [Tech Stack 🗜️](#tech-stack)
+    - [Key Features 🏷️](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [Getting Started 💻](#getting-started)
+  - [Setup ⚙️](#setup)
+  - [Prerequisites 🧱](#prerequisites)
+  - [Install 🏗️](#install)
+  - [Usage 📂](#usage)
+  - [Run tests 🧪](#run-tests)
+  - [Deployment](#deployment)
+- [Author 👤](#author)
+- [Future Features 🔭](#future-features)
+- [Contributing 🤝](#contributing)
+- [Show your support 🌟](#support)
+- [Acknowledgements 🙏](#acknowledgements)
+- [License 📝](#license)
+</b>
+<hr><hr>
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# <b>React Todos  📖</b><a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**React Todos** is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+<br><hr>
 
-### `npm test`
+<!-- BUILT WITH -->
+## <b>Built With 🛠</b><a name="built-with"></a><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TECH STACK -->
+### <b>Tech Stack 🗜️</b><a name="tech-stack"></a>
 
-### `npm run build`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML5</a> markup to build raw structure of this web page</li><br>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a> custom properties<br>
+    <li><a href="https://reactjs.org/">React Js</a></li><br>
+    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a> for coding convention and coding formating</li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br><hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- KEY FEATURES -->
+### <b>Key Features 🏷️</b> <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Adding a new item**
+- **Removing a selected item**
+- **Marking a selected item as complete**
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- LIVE DEMO -->
+## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> This app will be deployed in the near future.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GET STARTED -->
+## <b>Getting Started 💻</b><a name="getting-started"></a>
 
-## Learn More
+To get a local copy up and running, follow these steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- PREREQUISITIES -->
+### <b>Prerequisites 🧱</b><a name="prerequisites"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run this project you need:
 
-### Code Splitting
+- A Github account
+- Node JS
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br><hr>
 
-### Analyzing the Bundle Size
+<!-- SETUP -->
+### <b>Setup ⚙️</b><a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone this repository to your desired folder:<br>
+```sh
+  git clone https://github.com/lily4178993/react-todo-app.git
+```
+  - Navigate to the folder
+```
+cd react-todo-app
+code .
+```
+- Checkout the branch
+```
+git checkout dev
+```
+<br><hr>
 
-### Making a Progressive Web App
+<!-- INSTALL -->
+### <b>Install 🏗️</b><a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install all dependencies:
 
-### Advanced Configuration
+```sh
+    npm install
+```
+<br><hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- USAGE -->
+### <b>Usage 📂</b><a name="usage"></a>
 
-### Deployment
+To run the project, open your terminal and tap the following line.
+```sh
+    npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- TESTS -->
+<br><hr>
+### <b>Run tests 🧪</b><a name="run-tests"></a>
 
-### `npm run build` fails to minify
+How should it be tested? 
+To run tests, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- CSS linter errors run:
+
+```sh
+npx stylelint "**/*.{css,scss}" --fix
+```
+
+- JavaScript linter errors run:
+
+```sh
+npx eslint "**/*.{js,jsx}" --fix
+```
+
+<br><hr>
+
+<!-- DEPLOYEMENT -->
+### <b>Deployment</b> <a name="deployment"></a>
+
+> This app will be deployed in the near future.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+<!-- AUTHORS -->
+## 👤 Author <a name="author"></a>
+
+**Nelly Telli**
+- GitHub: [@lily4178993](https://github.com/lily4178993/)
+- LinkedIn: [Nelly T.](https://www.linkedin.com/in/nelly-t-330414266/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+<!-- FUTURE FEATURES -->
+## <b>Future Features 🔭</b><a name="future-features"></a>
+
+- **Add About and Contact Pages**
+- **Add editing functionalities to Todos list items**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+
+<!-- CONTRIBUTING -->
+
+## <b>Contributing 🤝</b><a name="contributing"></a>
+
+If you have suggestions 📝, ideas 🤔, or bug reports 🐛, please feel free to open an [issue](https://github.com/lily4178993/react-todo-app/issues) on GitHub.
+Remember, every contribution, no matter how big or small, makes a difference.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+
+
+<!-- SUPPORT -->
+## <b>Show your support 🌟</b><a name="support"></a>
+
+Thank you for taking the time to explore my GitHub project! Your support means a lot to me. If you find my project valuable and would like to contribute, here are a few ways you can support me:
+
+ - Star the project ⭐️
+ - Fork the project 🍴 🎣
+ - Share with others 🗺️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+<!-- ACKNOWLEDGEMENTS -->
+## <b>Acknowledgments 🙏</b><a name="acknowledgements"></a>
+
+I would like to express my sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and my [partner](https://github.com/SanaTameem).
+
+I would also like to thank <a target="_blank" href="https://icons8.com">Icons8</a> for all the images and icons I used in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+<!-- LICENCE -->
+## <b>License 📝</b><a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
