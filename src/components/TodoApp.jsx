@@ -1,12 +1,13 @@
 import Header from 'components/Header';
 import TodosLogic from 'components/TodosLogic';
-import Navbar from 'components/Navbar';
+import 'styles/app.css';
 
 const TodoApp = () => (
-  <>
-    <Navbar />
-    <Header />
-    <TodosLogic />
-  </>
+  <div className="wrapper">
+    <div className="todos">
+      <Header />
+      <TodosLogic />
+    </div>
+  </div>
 );
 export default TodoApp;
