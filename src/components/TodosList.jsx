@@ -1,7 +1,7 @@
 import TodoItem from 'components/TodoItem';
 
 // eslint-disable-next-line react/prop-types
-const TodosList = ({ todosProps, handleChange }) => (
+const TodosList = ({ todosProps, handleChange, delTodo }) => (
   <ul>
     {/* eslint-disable-next-line react/prop-types */}
     {todosProps.map((todo) => (
@@ -9,6 +9,7 @@ const TodosList = ({ todosProps, handleChange }) => (
         key={todo.id}
         itemProp={todo}
         handleChange={handleChange}
+        delTodo={delTodo}
       />
     ))}
   </ul>
