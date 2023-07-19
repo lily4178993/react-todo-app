@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import InputTodo from 'components/InputTodo';
 import TodosList from 'components/TodosList';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { v4 as uuidv4 } from 'uuid';
 
 const TodosLogic = () => {
