@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prop-types
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
   const [message, setMessage] = useState('');
@@ -35,4 +35,9 @@ const InputTodo = ({ addTodoItem }) => {
     </>
   );
 };
+
+InputTodo.propTypes = {
+  addTodoItem: PropTypes.func.isRequired,
+};
+
 export default InputTodo;
