@@ -9,14 +9,12 @@
   - [Built With](#built-with) 🛠
     - [Tech Stack 🗜️](#tech-stack)
     - [Key Features 🏷️](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [Getting Started 💻](#getting-started)
   - [Setup ⚙️](#setup)
   - [Prerequisites 🧱](#prerequisites)
   - [Install 🏗️](#install)
   - [Usage 📂](#usage)
   - [Run tests 🧪](#run-tests)
-  - [Deployment](#deployment)
 - [Author 👤](#author)
 - [Future Features 🔭](#future-features)
 - [Contributing 🤝](#contributing)
@@ -60,11 +58,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <hr>
-
-<!-- LIVE DEMO -->
-## <b>Live Demo 🚀</b><a name="live-demo"></a>
-
-> This app will be deployed in the near future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <hr>
@@ -142,11 +135,6 @@ npx eslint "**/*.{js,jsx}" --fix
 ```
 
 <br><hr>
-
-<!-- DEPLOYEMENT -->
-### <b>Deployment</b> <a name="deployment"></a>
-
-> This app will be deployed in the near future.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
